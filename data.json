@@ -1,0 +1,660 @@
+{
+  "summer": [
+    {
+      "productLink": "https://www.1800flowers.com/fields-of-europe-summer-191119",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191119xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Fields of Europe Summer",
+      "basePrice": "$42.99 - $69.99",
+      "discountPrice": "$39.99 - $69.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/summer-dunes-191357",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/191357xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Summer Dunes",
+      "basePrice": "$49.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/vibrant-summer-lily-bouquet-92926",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/92926mvw1td1x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Vibrant Summer Lily Bouquet",
+      "basePrice": "$39.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/coastal-breeze-191300",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191300lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Coastal Breeze",
+      "basePrice": "$49.99 - $69.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/lifeguard-beach-birdhouse-196066",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/196066sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Lifeguard Beach Birdhouse",
+      "basePrice": "$74.99",
+      "discountPrice": "$59.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/garden-pathway-191307",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/191307lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Garden Pathway",
+      "basePrice": "$99.99 - $149.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sorbet-roses-100550",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/100550mprsv1cn3x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sorbet Roses",
+      "basePrice": "$41.99 - $71.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/radiant-ranunculus-bouquet-194003",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/194003mjwv1x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Radiant Ranunculus Bouquet",
+      "basePrice": "$79.99 - $91.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/seaside-mermaid-dog-194757",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/194757x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Seaside Mermaid Dog",
+      "basePrice": "$59.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/splendid-beauty-bouquet-191387",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/191387lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Splendid Beauty Bouquet",
+      "basePrice": "$49.99 - $69.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/magnificent-roses-preserved-citrus-roses-177703",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/177703lcsx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Magnificent Roses Preserved Citrus Roses",
+      "basePrice": "$150.00 - $225.00",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/magnificent-roses-preserved-kaleidoscope-reflection-190406",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/190406sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Magnificent Roses Preserved Kaleidoscope Reflection",
+      "basePrice": "$115.00",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/magnificent-roses-preserved-sorbet-roses-177704",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/177704lsbx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Magnificent Roses Preserved Sorbet Roses",
+      "basePrice": "$150.00 - $225.00",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/dried-pampas-bouquet-crimson-summer",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/mk019270x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Dried Pampas Bouquet “crimson Summer”",
+      "basePrice": "$105.00 - $135.00",
+      "discountPrice": "$99.00 - $129.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/plants-hello-sunshine-mum-158403",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/158403sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Hello Sunshine Mum",
+      "basePrice": "$39.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/radiant-sunshine-bouquet-194870",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/194870sbdv3td1x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Radiant Sunshine Bouquet",
+      "basePrice": "$39.99 - $59.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/florist-delivered-birthday-wishes-flower-cake-coastal-166259",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/166259lbx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Birthday Wishes Flower Cake Coastal",
+      "basePrice": "$49.99 - $59.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/from-sea-to-shining-sea-candle-trio-182802",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/182802sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "From Sea to Shining Sea Candle Trio",
+      "basePrice": "$34.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sharis-under-the-sea-strawberries-full-dozen-192783",
+      "productImage": "https://cdn4.fruitbouquets.com/wcsstore/Flowers/images/catalog/192783mx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Under the Sea Strawberries",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": "$36.99 - $79.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/skinny-margarita-gift-set",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk033464x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Skinny Margarita Gift Set",
+      "basePrice": "$40.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/florist-delivered-seaside-mermaid-176444",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/176444x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Seaside Mermaid Cat",
+      "basePrice": "$59.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/citrus-sunshine-bouquet-191381",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191381lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Citrus Sunshine Bouquet",
+      "basePrice": "$59.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/summer-beginnings-194651",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/194867mvw1td1x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Summer Beginnings Bouquet",
+      "basePrice": "$34.99 - $69.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sunny-garden-basket-191380",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191380lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sunny Garden Basket",
+      "basePrice": "$49.99 - $69.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/classic-bbq-gift-tub-41377",
+      "productImage": "https://cdn3.1800baskets.com/wcsstore/Baskets/images/catalog/41377_23x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Classic BBQ Gift Tub",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/summer-artisan-iced-cookies-171491",
+      "productImage": "https://cdn3.1800baskets.com/wcsstore/Baskets/images/catalog/171491L21x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Summer Artisan Iced Cookies",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": "$39.99 - $49.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sunshine-bouquet-183096",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/183096mpfv1cn3x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Summer Sunshine Bouquet",
+      "basePrice": "$44.99 - $85.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/p/g/60-led-hanging-solar-pineapple-string-lights-mk009196",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/mk009196x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "60 Led Hanging Solar Pineapple String Lights",
+      "basePrice": "$99.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sunny-day-drizzled-strawberries-192949",
+      "productImage": "https://cdn4.fruitbouquets.com/wcsstore/Flowers/images/catalog/192949mx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sunny Day Drizzled Strawberries",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": "$32.99 - $76.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/plants-seashell-succulent-garden-158110",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/158110lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Seashell Succulent Garden",
+      "basePrice": "$105.15",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/summer-sundae-cake-pops-41126",
+      "productImage": "https://cdn1.1800baskets.com/wcsstore/Baskets/images/catalog/41126L21x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Summer Sundae Cake Pops",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": "$44.99 - $64.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/country-charm-wreath-24-182543",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/182543sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Coastal Charm Wreath-24\"",
+      "basePrice": "$79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Garden-delight-wreath-22-156968",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/156968sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Garden Delight Wreath- 22”",
+      "basePrice": "$69.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Embroidered-Beach-Tote-Bags-Name-Initial",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/18420-90966-211015125750x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "All About Me Embroidered Beach Bag",
+      "basePrice": "$89.00",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Embroidered-Beach-Towels-All-About-Me",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/15598-61400-190603131644x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "All About Me Embroidered Beach Towels",
+      "basePrice": "$41.99 - $71.99",
+      "discountPrice": "$39.99 - $49.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/hello-summer-19pc-chocolate-box-179826",
+      "productImage": "https://cdn3.simplychocolate.com/wcsstore/SimplyChocolate/images/catalog/179826_23x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Hello Summer 19 pc Chocolate Box",
+      "basePrice": "$69.69",
+      "discountPrice": "$34.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/simply-chocolate-celebrate-summer-gift-basket-163532",
+      "productImage": "https://cdn1.simplychocolate.com/wcsstore/SimplyChocolate/images/catalog/163532dx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Simply Chocolate Celebrate Summer Gift Basket",
+      "basePrice": "$79.99 - $129.99",
+      "discountPrice": "$69.99 - $89.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Beach-Fun-Personalized-Acrylic-Insulated-Tumblers",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/21213-48761-180803150721x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Beach Fun Personalized 17 oz. Acrylic Insulated Tumbler",
+      "basePrice": "$129.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/flamingo-mini-palm-plant-158111",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/158111sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Fiona Flamingo Mini Palm Plant",
+      "basePrice": "$39.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/sunset-seascape-round-charcuterie-board",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk022059x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Hand-Painted Sunset Seascape Round Charcuterie Board",
+      "basePrice": "$105.99",
+      "discountPrice": "$99.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/seashell-wreath",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk019734x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Seashell Wreath",
+      "basePrice": "135.95",
+      "discountPrice": "$99.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/p/g/silver-nautical-cheese-board-with-3pc-utensil-set-mk001755",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk001755x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Silver Nautical Cheese Board With 3pc Utensil Set",
+      "basePrice": "$119.99",
+      "discountPrice": "$42.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sea-sand-beach-gift-set-182787",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/182787bdx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sea, Sand, Beach Gift Set",
+      "basePrice": "$44.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Summer-Fun-Fresh-Fruit-94702",
+      "productImage": "https://cdn3.1800baskets.com/wcsstore/Baskets/images/catalog/94702_22x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Summer Fun Fresh Fruit & Snacks Gift Box",
+      "basePrice": "$67.99",
+      "discountPrice": "$49.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/deliciously-decadent-multicolored-strawberries-192816",
+      "productImage": "https://cdn4.fruitbouquets.com/wcsstore/Flowers/images/catalog/192816mbv24bdmx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Deliciously Decadent Assorted Roses & Drizzled Strawberries",
+      "basePrice": "$129.99 - %147.99",
+      "discountPrice": "$79.99 - $109.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/deliciously-decadent-multicolored-strawberries-192816",
+      "productImage": "https://cdn4.fruitbouquets.com/wcsstore/Flowers/images/catalog/192816mbv24bdmx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Deliciously Decadent Assorted Roses & Drizzled Strawberries",
+      "basePrice": "$129.99 - %147.99",
+      "discountPrice": "$79.99 - $109.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/floral-embrace-191167",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191167xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Floral Embrace",
+      "basePrice": "$49.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/blue-waterfall-capiz-shell-windchime-182789",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/182789bdx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Blue Waterfall Capiz Shell Windchime",
+      "basePrice": "$39.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/caribbean-queen-rum",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk017658x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Caribbean Queen",
+      "basePrice": "$35.00",
+      "discountPrice": "$25.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/flamingo-honeycomb-straws",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/mk019435x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Flamingo Honeycomb Straws (10 Per Pack)",
+      "basePrice": "$16.00",
+      "discountPrice": "$8.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/palm-leaf-small-plates",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk019434x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Palm Leaf Small Plates (10 Per Pack)",
+      "basePrice": "$25.00",
+      "discountPrice": "$9.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/blush-posy-bouquet-191383",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191383lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Blush Posy Bouquet",
+      "basePrice": "$49.99 - $59.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sweet-treat-mini-plant-trio-158301",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/158301t3rx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sweet Treat Mini Plant Trio",
+      "basePrice": "$132.50",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/citronella-sea-salt-votive-set-190402",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/190402sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Citronella Sea Salt Votive Set",
+      "basePrice": "$64.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/wonderful-wishes-bouquet-191179",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/191179xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Wonderful Wishes  Bouquet",
+      "basePrice": "$49.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/summer-lilies-by-southern-living-183407",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/183407mvcw1n7x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Summer Lilies with Ross-Simons Bee Necklace",
+      "basePrice": "$79.99 - $119.98",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/vibrant-floral-medley-191313",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/191313xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Vibrant Floral Medley",
+      "basePrice": "$49.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/tabletop-firepot-starter-set-190330",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/190330sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Tabletop Firepot Starter Set",
+      "basePrice": "$69.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Personalized-Beach-Towels-Classic-Stripe",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/18571-42668-180206131632x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Classic Stripe Personalized Beach Towel",
+      "basePrice": "$37.00",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Personalized-Slate-Sign-Water-Rules-Plaque",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/14689-33155-171106084151x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Water Rules Personalized Slate Plaque",
+      "basePrice": "$56.75",
+      "discountPrice": "$34.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Beach-Fun-Drinks-Personalized-Stainless-Stemless-Wine-Cup",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/28015-75213-200916140022x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Beach Fun Drinks Personalized Stainless Insulated Wine Cup",
+      "basePrice": "$35.99",
+      "discountPrice": "$29.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/tropical-pinatagram-182192",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/182192alt1x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Tropical Piñatagram",
+      "basePrice": "$36.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/deliciously-decadent-lavender-garden-strawberries-192909",
+      "productImage": "https://cdn4.fruitbouquets.com/wcsstore/Flowers/images/catalog/192909sbbv24bdmx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Deliciously Decadent Lavender Garden & Drizzled Strawberries",
+      "basePrice": "$120.99 - $145.00",
+      "discountPrice": "$89.99 - $99.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/sea-sparkle-mermaid-gift-set-177709",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/177709alt_view1x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sea Sparkle Mermaid",
+      "basePrice": "$24.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/garden-sensation-bouquet-191249",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/191249lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Garden Sensation Bouquet",
+      "basePrice": "$59.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/fields-of-europe-summer-with-jumbo-smile-balloon-191327",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/191327xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Fields of Europe Summer with Jumbo Smile Balloon",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/florist-designed-vibrant-charm-bouquet-191382",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/191382lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Vibrant Charm Bouquet",
+      "basePrice": "$54.99 - $74.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/h/flowers-plants/flowers-with-wine/RADSUNBO",
+      "productImage": "https://cdn2.harryanddavid.com/wcsstore/HarryAndDavid/images/catalog/23_0022359x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Radiant Sunshine Bouquet and Wine",
+      "basePrice": "$89.99 - $99.99",
+      "discountPrice": "$79.99 - $89.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/chic-garden-bouquet-191375",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/191375lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Chic Garden Bouquet",
+      "basePrice": "$49.99 - $69.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/lets-go-to-the-beach",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/mk033432x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Let’s Go To The Beach!",
+      "basePrice": "$69.69",
+      "discountPrice": "$50.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/birdhouse-of-blooms-158271",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/158271shx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Bird House of Blooms",
+      "basePrice": "$20.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/yellow-white-delight-bouquet-191171",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191171xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Yellow & White Delight Bouquet",
+      "basePrice": "$49.99 - $79.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/you-are-flamazing-gift-set-177702",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/177702sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "“You Are Flamazing” Plush- Large or Small",
+      "basePrice": "$31.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/keepsake-farmhouse-sunflower-wreath-156587",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/156587sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Keepsake Farmhouse Sunflower Wreath-18\"",
+      "basePrice": "$59.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/keepsake-serene-white-hydrangea-wreath-24-156588",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/156588sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Keepsake Serene White Hydrangea Wreath-24\"",
+      "basePrice": "$49.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/secret-garden-butterfly-wreath-190303",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/190303sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Secret Garden Butterfly Wreath- 24”",
+      "basePrice": "$23.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/cherished-blooms-with-gourmet-drizzled-strawberries-193176",
+      "productImage": "https://cdn4.fruitbouquets.com/wcsstore/Flowers/images/catalog/192964sbbv24bdmx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Deliciously Decadent Cherished Blooms & Drizzled Strawberries",
+      "basePrice": "$105.00 - $135.99",
+      "discountPrice": "$89.99 - $99.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Embroidered-Beach-Bag-Name-or-Monogram",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/18421-90975-211015131143x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Beach Fun! Embroidered Beach Bag",
+      "basePrice": "$45.50",
+      "discountPrice": "$39.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Personalized-Beach-Pail-Shovel-Sea-Creatures",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/18486-56099-190204095219x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sea Creatures Personalized Plastic Beach Pail & Shovel",
+      "basePrice": "$51.00",
+      "discountPrice": "$14.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/manta-portable-beach-tent",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/mk010049x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Manta Portable Beach Tent",
+      "basePrice": "$89.99",
+      "discountPrice": "$70.95"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/one-of-a-kind-bouquet-179095",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/179095x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "One of a Kind Bouquet | Local Florist Designed",
+      "basePrice": "$99.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Garden-Of-Love-Personalized-Round-Garden-Stones",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/34881-95580-220209112104x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Garden Of Love Personalized Round Garden Stones",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": "$24.99 - $49.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/p/g/sweet-summer-gift-box-mk009072",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk009072x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Sweet Summer Gift Box",
+      "basePrice": "$79.99",
+      "discountPrice": "$68.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/p/g/hello-season-reusable-shoulder-tote-mk006915",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk006921x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Hello Season Reusable Shoulder Tote",
+      "basePrice": "$41.99 - $71.99",
+      "discountPrice": "$12.99 - $18.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/p/g/happy-summer-gift-box-mk009074",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk009074x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Happy Summer Gift Box",
+      "basePrice": "$105.00",
+      "discountPrice": "$83.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/seacliff-cottage-bird-house-182528",
+      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/182528sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Seacliff Cottage Bird House",
+      "basePrice": "$41.99 - $71.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/celebration-cheesecake-bites-192931",
+      "productImage": "https://cdn4.fruitbouquets.com/wcsstore/Flowers/images/catalog/192931mbx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Celebration Cheesecake Bites with Gourmet Drizzled Strawberries",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": "$44.99 - $79.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/marketplace/p/luca-danni-starfish-medley-bracelet",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/mk018903x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Luca + Danni Starfish Medley Bracelet",
+      "basePrice": "$56.50",
+      "discountPrice": "$38.00"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/plants-pretty-pink-azalea-158397",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/158397lwx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Pretty Pink Azalea",
+      "basePrice": "$41.99 - $71.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/mermaid-party-kit-182502",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/182502sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Mermaid Balloon Party Kit",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": "$44.99 - $79.99"
+    },
+    {
+      "productLink": "https://www.1800flowers.com/fields-of-europe-summer-with-jumbo-birthday-balloon-191326",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/191326xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Fields of Europe Summer with Jumbo Birthday Balloon",
+      "basePrice": "$59.99 - $89.99",
+      "discountPrice": ""
+    },
+    {
+      "productLink": "https://www.1800flowers.com/Personalized-Name-Beach-Towels-Scripty-Style",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/PersonalizationMall/images/catalog/20846-46188-180313161031x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Scripty Style Personalized Beach Towel",
+      "basePrice": "$41.99 - $71.99",
+      "discountPrice": ""
+    }
+  ],
+  "cart": [
+    {
+      "userID": "Sample@mail",
+      "productLink": "https://www.1800flowers.com/simply-chocolate-celebrate-summer-gift-basket-163532",
+      "productImage": "https://cdn1.simplychocolate.com/wcsstore/SimplyChocolate/images/catalog/163532dx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Simply Chocolate Celebrate Summer Gift Basket",
+      "basePrice": "$79.99 - $129.99",
+      "discountPrice": "$69.99 - $89.99",
+      "size": "Medium",
+      "id": 1
+    }
+  ]
+}
