@@ -648,13 +648,23 @@
   "cart": [
     {
       "userID": "Sample@mail",
-      "productLink": "https://www.1800flowers.com/simply-chocolate-celebrate-summer-gift-basket-163532",
-      "productImage": "https://cdn1.simplychocolate.com/wcsstore/SimplyChocolate/images/catalog/163532dx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
-      "productTitle": "Simply Chocolate Celebrate Summer Gift Basket",
-      "basePrice": "$79.99 - $129.99",
-      "discountPrice": "$69.99 - $89.99",
-      "size": "Medium",
+      "productLink": "https://www.1800flowers.com/garden-pathway-191307",
+      "productImage": "https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/191307lx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Garden Pathway",
+      "basePrice": "$99.99 - $149.99",
+      "discountPrice": "",
+      "size": "Small",
       "id": 1
+    },
+    {
+      "userID": "Sample@mail",
+      "productLink": "https://www.1800flowers.com/lifeguard-beach-birdhouse-196066",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/196066sx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Lifeguard Beach Birdhouse",
+      "basePrice": "$74.99",
+      "discountPrice": "$59.99",
+      "size": "Small",
+      "id": 2
     }
   ]
 }

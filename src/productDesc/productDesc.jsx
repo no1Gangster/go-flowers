@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import PriceCard from "./priceCard";
+import { useNavigate } from "react-router-dom";
 
 function ProductDesc () {
     const endpoint = localStorage.getItem("endpoint");
     const link = localStorage.getItem("productLink");
     const [items,setItems] = useState([]);
     const [cartItem , setCartItem] = useState({});
-
+    const navigate = useNavigate();
 
     const getData = async () => {
         try {
@@ -15,7 +16,6 @@ function ProductDesc () {
             const filteredData = data.filter(product => product.productLink === link);
             setItems(filteredData);
             setCartItem(filteredData[0]);
-            console.log(filteredData);
           } catch (error) {
             console.error(error);
           }
@@ -39,7 +39,7 @@ function ProductDesc () {
             size: localStorage.getItem("size"),
         };
 
-        console.log(data);
+        localStorage.setItem("userID","Sample@mail");
 
         fetch('http://localhost:5005/cart', {
             method: 'POST',
@@ -55,6 +55,7 @@ function ProductDesc () {
         .catch(error => {
             console.error(error);
         });
+        navigate("/cart");
     };
 
     return(
