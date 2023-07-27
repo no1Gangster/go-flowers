@@ -1,2 +1,16 @@
-#linkbox1 , #linkbox2 {
+#left_box {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  margin-top: 5%;
+  flex-shrink: 0;
+}
+#linkbox1,
+#linkbox2 {
+  display: grid;
+  border: 1px solid gray;
+  margin: 4%;
+  padding: 8%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
