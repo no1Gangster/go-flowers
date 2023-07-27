@@ -28,6 +28,8 @@ function Payment() {
 
         try {
             for (const data of filteredData) {
+                const did = data.id;
+                delete data.id;
                 const res = await fetch(`http://localhost:5005/orders`, {
                   method: "POST",
                   headers: {
@@ -35,6 +37,7 @@ function Payment() {
                   },
                   body: JSON.stringify(data),
                 });
+                data.id = did;
         
                 if (!res.ok) {
                   throw new Error("Failed to post data to the API.");
