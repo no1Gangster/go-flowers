@@ -25,7 +25,7 @@ function ProductDesc () {
         getData();
     },[]);
 
-    const addToCart = (item) => {
+    const addToCart = async (item) => {
 
         {setCartItem(item)};
 
@@ -41,21 +41,21 @@ function ProductDesc () {
 
         localStorage.setItem("userID","Sample@mail");
 
-        fetch('http://localhost:5005/cart', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        })
-        .then(response => response.json())
-        .then(result => {
+        try {
+            const response = await fetch("http://localhost:5005/cart", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+        
+            const result = await response.json();
             console.log(result);
-        })
-        .catch(error => {
+            navigate("/cart");
+          } catch (error) {
             console.error(error);
-        });
-        navigate("/cart");
+          }
     };
 
     return(
