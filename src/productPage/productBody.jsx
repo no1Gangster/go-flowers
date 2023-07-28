@@ -8,7 +8,7 @@ import {
   Stack,
   Heading,
   Text,
-  Center,
+  Button,
 } from "@chakra-ui/react";
 import "./productBody.css";
 import { Link, useNavigate } from "react-router-dom";
@@ -70,22 +70,20 @@ function ProductBody() {
             <Card id="card" onClick={() => handleClick(product)}>
               <CardBody>
                 <Image src={product.productImage} borderRadius="lg" />
-                <Stack mt="6" spacing="3">
-                  <Text size="lg">{product.productTitle}</Text>
-                  <Text>
-                    {priceHandle(product)}{" "}
-                    <Text color="#A1001A" fontSize="md" as="b">
-                      {product.discountPrice}
-                    </Text>
+                <Text size="lg">{product.productTitle}</Text>
+                <Text>
+                  {priceHandle(product)}{" "}
+                  <Text color="#A1001A" fontSize="md" as="b">
+                    {product.discountPrice}
                   </Text>
-                </Stack>
+                </Text>
               </CardBody>
             </Card>
           );
         })}
-      <button id="loadbtn" onClick={changeVisible}>
+      <Button id="loadbtn" colorScheme="blue" onClick={changeVisible}>
         Load More
-      </button>{" "}
+      </Button>{" "}
       {/*Load More items button*/}
     </div>
   );

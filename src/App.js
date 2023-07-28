@@ -27,9 +27,7 @@ function App() {
               Summer Flower Arrangements & Gifts
             </Heading>
           </Box>
-          <Center height="100px">
-            <Divider orientation="vertical" color="red" />
-          </Center>
+          {/* <Divider orientation="vertical" height="20vh" color="red" /> */}
           <Box ml="10%">
             <Flex flexDirection="column">
               <Text fontSize="sm" fontWeight="bold">

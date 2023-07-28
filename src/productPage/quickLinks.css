@@ -9,8 +9,8 @@
 #linkbox2 {
   display: grid;
   border: 1px solid gray;
-  margin: 4%;
-  padding: 8%;
+  margin: 2%;
+  padding: 5%;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
