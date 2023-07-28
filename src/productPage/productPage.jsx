@@ -20,10 +20,16 @@ import { Link } from "react-router-dom";
 import Topbar from "../components/topbar/topbar";
 function ProductPage() {
   return (
-    <div id="container_left">
-      <QuickLinks id="qlinks" />
-      <ProductBody />
+    <div>
       <Topbar />
+      <div id="container_left">
+        <div>
+          <QuickLinks id="qlinks" />
+        </div>
+        <div>
+          <ProductBody />
+        </div>
+      </div>
     </div>
   );
 }

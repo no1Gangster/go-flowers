@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CartCard from "./cartCard";
 import { Link } from "react-router-dom";
+import "./cart.css";
 
 function CartBody() {
   const [cartItems, setCartItems] = useState([]);
@@ -71,7 +72,14 @@ function CartBody() {
   return (
     <div id="cart_body">
       {cartItems.length === 0 ? (
-        <div>Your cart is empty.</div>
+        <div
+          style={{
+            backgroundColor: "lightslategray",
+            margin: "5%",
+          }}
+        >
+          Your cart is empty.
+        </div>
       ) : (
         <div>
           {cartItems.map((item) => (

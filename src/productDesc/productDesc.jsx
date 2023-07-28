@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import PriceCard from "./priceCard";
 import { useNavigate } from "react-router-dom";
+import "../productDesc/productDesc.css";
+import Navbar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
+import { Button, Flex } from "@chakra-ui/react";
 
 function ProductDesc() {
   const endpoint = localStorage.getItem("endpoint");
@@ -65,21 +69,30 @@ function ProductDesc() {
     <div>
       {items.map((item) => {
         return (
-          <div>
-            <div>
+          <div id="item_cardbody">
+            <Navbar />
+            <div id="item_card">
               <img src={item.productImage} />
+              <div id="detail">
+                {/* <Flex justifyContent="center"> */}
+                <PriceCard
+                  title={item.productTitle}
+                  basePrice={item.basePrice}
+                  discountPrice={item.discountPrice}
+                />
+                {/* </Flex> */}
+
+                <Flex justifyContent="center">
+                  <Button colorScheme="green" onClick={addToCart}>
+                    Add to Cart
+                  </Button>
+                </Flex>
+              </div>
             </div>
-            <div>
-              <PriceCard
-                title={item.productTitle}
-                basePrice={item.basePrice}
-                discountPrice={item.discountPrice}
-              />
-            </div>
+            <Footer />
           </div>
         );
       })}
-      <button onClick={addToCart}>Add to Cart</button>
     </div>
   );
 }

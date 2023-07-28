@@ -1,6 +1,9 @@
 import { Button, ButtonGroup } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./payment.css";
+import { Card, Image } from "@chakra-ui/react";
+import Topbar from "../components/topbar/topbar";
 
 function Payment() {
   const total = localStorage.getItem("total");
@@ -74,29 +77,44 @@ function Payment() {
   };
 
   return (
-    <div>
-      <div>
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/4300/4300059.png"
-          width="3%"
-        />
-      </div>
-      <div>
-        <h2>Go Flowers</h2>
-      </div>
-      <div>
-        <h3>Total Amount</h3>
-      </div>
-      <div>
-        <h1>${total}</h1>
-      </div>
-      <div>
-        Phone Number:
-        <input type="number" />
-      </div>
-      <div>
-        <button onClick={() => payChoice(true)}>Approve</button>
-        <button onClick={() => payChoice(false)}>Cancel</button>
+    <div id="grandparent_div">
+      {/* <Topbar /> */}
+      <video
+        autoPlay
+        loop
+        src="https://player.vimeo.com/external/191382067.sd.mp4?s=2fd8787c791ff985a786109f9b6dbd92baf397b6&profile_id=164&oauth2_token_id=57447761"
+      />
+      <div id="parent_div">
+        <div id="content">
+          <div id="img_div">
+            <img
+              id="image"
+              src="https://cdn-icons-png.flaticon.com/512/4300/4300059.png"
+              width="3%"
+            />
+          </div>
+          <div id="org_div">
+            <h2>Go Flowers</h2>
+          </div>
+          <div id="total_div">
+            <h3 id="amt">Total Amount:</h3>
+            <h1 id="price" style={{ fontWeight: "bold" }}>
+              ${total}
+            </h1>
+            <label style={{ color: "white", fontWeight: "bold" }}>
+              Phone Number:
+            </label>
+            <input id="phone_input" type="number" />
+          </div>
+          <div id="btns_div">
+            <Button onClick={() => payChoice(true)} colorScheme="purple">
+              Approve
+            </Button>
+            <Button onClick={() => payChoice(false)} colorScheme="purple">
+              Cancel
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   );

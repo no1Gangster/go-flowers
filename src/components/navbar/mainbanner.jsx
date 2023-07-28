@@ -8,6 +8,7 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 function MainBanner() {
   return (
@@ -15,7 +16,7 @@ function MainBanner() {
       {" "}
       <Flex>
         {" "}
-        <Box>
+        <Box w="100%">
           <Box
             bg="#F4ECFF"
             h="5vh"
@@ -43,7 +44,7 @@ function MainBanner() {
                     party favors to personalized gifts right here{" "}
                   </Text>
                   <Button colorScheme="purple">
-                    <Text>SHOP NOW</Text>
+                    <Link to="/summer">SHOP NOW</Link>
                   </Button>
                 </VStack>
               </Box>

@@ -3,6 +3,8 @@
   grid-template-columns: repeat(3, 1fr);
   margin-left: 8%;
   margin-top: 4%;
+  gap: 10px;
+  flex-grow: 0;
 }
 
 #card img {

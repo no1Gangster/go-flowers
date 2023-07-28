@@ -30,7 +30,7 @@ import {
   MenuButton,
   MenuList,
 } from "@chakra-ui/react";
-import { Link } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import {
   ArrowForwardIcon,
   CheckIcon,
@@ -96,10 +96,7 @@ const Navbar = () => {
                 Summer
               </Text>
               <Flex flexDirection="column" textAlign="start">
-                {" "}
-                <Link color="black" colorScheme="transparent">
-                  All Summers
-                </Link>
+                <Link to="/summer">All Summers</Link>
                 <Link color="black" colorScheme="transparent">
                   Barbie
                 </Link>
@@ -126,7 +123,6 @@ const Navbar = () => {
                 Shop by Gourmet Food & Treats
               </Text>
               <Flex flexDirection="column" textAlign="start">
-                {" "}
                 <Link color="black" colorScheme="transparent">
                   BBQ & Grilling Gifts
                 </Link>
@@ -153,7 +149,6 @@ const Navbar = () => {
                 Shop by Gifts & More
               </Text>
               <Flex flexDirection="column" textAlign="start">
-                {" "}
                 <Link color="black" colorScheme="transparent">
                   Keepsake Gifts
                 </Link>
@@ -401,13 +396,22 @@ const Navbar = () => {
         </div>
       ),
     },
+    {
+      label: " PROFILE",
+      content: (
+        <div>
+          {" "}
+          <Text>hello</Text>
+        </div>
+      ),
+    },
   ];
 
   return (
     <div className="nav_top">
       <Divider orientation="horizontal" color="gray.500" />
       <Flex>
-        <Box>
+        <Box width="90%">
           <Flex>
             <Box display={{ base: "none", md: "flex" }}>
               <Image
@@ -510,8 +514,8 @@ const Navbar = () => {
         </Box>
       </Flex>
 
-      <Flex>
-        <Box display={{ base: "none", md: "block" }}>
+      <Flex justifyContent="centre">
+        <Box display={{ base: "none", md: "block" }} w="100%">
           <Divider orientation="horizontal" borderColor="black" />
           <Tabs
             position="relative"

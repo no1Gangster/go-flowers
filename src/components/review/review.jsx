@@ -48,7 +48,7 @@ function Review() {
       <Box>
         <Box display={{ base: "none", md: "block" }}>
           <Box mt="5%">
-            <Heading fontWeight="hairline">
+            <Heading fontWeight="hairline" textAlign="center">
               Some of the Great Things our Customer Say About Us
             </Heading>
           </Box>

@@ -33,8 +33,12 @@ function HomePage() {
                 }}
               >
                 <Flex flexDirection="column" fontWeight="semibold">
-                  <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt67299f442812b302/648c9afed5b9a5624f6dd59a/flower-delivery-same-day-silo-191119xl-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Same-Day Delivery</Text>
+                  <Link to="/summer">
+                    <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt67299f442812b302/648c9afed5b9a5624f6dd59a/flower-delivery-same-day-silo-191119xl-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
+                  </Link>
+                  <Text textAlign="centre" fontSize="small">
+                    Same-Day Delivery
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -46,7 +50,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blta2748b9a4b476529/63d304315ba46f75ddba03cf/sympathy-flowers-silo-191166XL-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Sympathy</Text>
+                  <Text textAlign="centre" fontSize="small">
+                    Sympathy
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -58,7 +64,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltfc8d6ce278824233/648c9f9bd242041f971cc804/chocolate-covered-strawberries-silo-192949-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text textAlign="center">Chocolate Covered Strawberries</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Chocolate Covered Strawberries
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -70,7 +78,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt26149ee749ecd0f3/62b5c27fa7c4490fd2ef03ef/magnificent-preserved-roses-silo-156623-260x284.jpeg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Love & Romance</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Love & Romance
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -82,7 +92,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltfd80cf0e772c0e66/645d56279c40aa29760741ff/lovely-lavender-medley-silo-191173-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Get well</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Get well
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -94,7 +106,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltab1e454c31591a41/648c9b12e66699a1042eab32/just-because-flowers-silo-191387l-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Just Because</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Just Because
+                  </Text>
                 </Flex>
               </Box>
             </Flex>
@@ -123,7 +137,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt649c09a594c6ac64/6477b2cef6df4f22dbb51120/bbq-gifts-grilling-accessories-silo-41377-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Gift Baskets</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Gift Baskets
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -135,7 +151,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt3a33706289528557/62b4d3e4b8bffb0fb089598a/baked-goods-silo-171491-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Baked Goods</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Baked Goods
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -147,7 +165,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt3c4f45ae5c6c7f96/6259946302d8144fd4dabab4/chocolate-delivery-silo-179909-v3-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Chocolates Gifts</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Chocolates Gifts
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -159,7 +179,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltde7fc1812ceeddba/649ddea3fcb6fd65095ace10/wine-bar-silo-23132x-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Wine & Bar</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Wine & Bar
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -171,7 +193,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt95b98a90d957b37a/649ddebee9365a1f72c3616e/fruit-baskets-silo-12x-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Fruit Baskets</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Fruit Baskets
+                  </Text>
                 </Flex>
               </Box>
               <Box
@@ -183,7 +207,9 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltd40ab2939ae7dce1/621faeb43837bf67467a9fbd/meat-and-cheese-silo-32552X-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                  <Text>Meat & Cheese</Text>
+                  <Text textAlign="center" fontSize="small">
+                    Meat & Cheese
+                  </Text>
                 </Flex>
               </Box>
             </Flex>
@@ -249,7 +275,9 @@ function HomePage() {
             >
               <Flex flexDirection="column" fontWeight="semibold">
                 <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltc60595753de03456/649ddf65bcdab086263bf9b3/gift-sets-silo-1027-P-MK033464-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                <Text>Gift Sets</Text>
+                <Text textAlign="center" fontSize="small">
+                  Gift Sets
+                </Text>
               </Flex>
             </Box>
             <Box
@@ -261,7 +289,9 @@ function HomePage() {
             >
               <Flex flexDirection="column" fontWeight="semibold">
                 <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltc615de5ead49e1c6/62b4d48c59fa7e0f945d7c33/personalized-gifts-silo-1030-P-20645-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                <Text>Personalized Gifts</Text>
+                <Text textAlign="center" fontSize="small">
+                  Personalized Gifts
+                </Text>
               </Flex>
             </Box>
             <Box
@@ -273,7 +303,9 @@ function HomePage() {
             >
               <Flex flexDirection="column" fontWeight="semibold">
                 <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltcaf3a860f233928c/648c9b91359ef0648860e5ef/preserved-roses-silo-177704-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                <Text textAlign="center">Magnificient Preserved Roses</Text>
+                <Text textAlign="center" fontSize="small">
+                  Magnificient Preserved Roses
+                </Text>
               </Flex>
             </Box>
             <Box
@@ -285,7 +317,9 @@ function HomePage() {
             >
               <Flex flexDirection="column" fontWeight="semibold">
                 <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltd3d33d4fcc0493b7/649ddf8924cb3338527f4011/gardening-gifts-silo-196066-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                <Text>Garden Decor</Text>
+                <Text textAlign="center" fontSize="small">
+                  Garden Decor
+                </Text>
               </Flex>
             </Box>
             <Box
@@ -297,7 +331,9 @@ function HomePage() {
             >
               <Flex flexDirection="column" fontWeight="semibold">
                 <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt3b3c01841ca0ed0c/649ddfc3e64f411ef142e76d/outdoor-decor-silo-1027-P-MK015852-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                <Text>Outdoor Living</Text>
+                <Text textAlign="center" fontSize="small">
+                  Outdoor Living
+                </Text>
               </Flex>
             </Box>
             <Box
@@ -309,7 +345,9 @@ function HomePage() {
             >
               <Flex flexDirection="column" fontWeight="semibold">
                 <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt14c031e5901496fe/649de03fefa20d89ea4bded7/puzzles-and-games-silo-1027-P-MK017941-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
-                <Text>Puzzles & Games</Text>
+                <Text textAlign="center" fontSize="small">
+                  Puzzles & Games
+                </Text>
               </Flex>
             </Box>
           </Flex>

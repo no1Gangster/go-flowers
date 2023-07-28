@@ -645,27 +645,17 @@
       "discountPrice": ""
     }
   ],
-  "cart": [],
-  "orders": [
+  "cart": [
     {
       "userID": "Sample@mail",
-      "productLink": "https://www.1800flowers.com/fields-of-europe-summer-191119",
-      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191119xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
-      "productTitle": "Fields of Europe Summer",
-      "basePrice": "$42.99 - $69.99",
-      "discountPrice": "$39.99 - $69.99",
+      "productLink": "https://www.1800flowers.com/seaside-mermaid-dog-194757",
+      "productImage": "https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/194757x.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
+      "productTitle": "Seaside Mermaid Dog",
+      "basePrice": "$59.99",
+      "discountPrice": "",
       "size": "Small",
       "id": 1
-    },
-    {
-      "userID": "Sample@mail",
-      "productLink": "https://www.1800flowers.com/fields-of-europe-summer-191119",
-      "productImage": "https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191119xlx.jpg?height=456&width=418&sharpen=a0.5,r1,t1&quality=80&auto=webp&optimize={medium}",
-      "productTitle": "Fields of Europe Summer",
-      "basePrice": "$42.99 - $69.99",
-      "discountPrice": "$39.99 - $69.99",
-      "size": "Large",
-      "id": 2
     }
-  ]
+  ],
+  "orders": []
 }
