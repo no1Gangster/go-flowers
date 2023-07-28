@@ -1,0 +1,62 @@
+img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#container {
+  /* border: 1px solid black; */
+  /* margin: 5%; */
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+  /* width: 100%; */
+  width: 200%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#parent_container {
+  /* border: 2px solid rebeccapurple; */
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+}
+#right_content {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid violet; */
+  width: 70%;
+}
+#pricecard_content {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  margin-left: 10%;
+  /* margin-top: 15%; */
+  padding: 10%;
+  /* margin-left: 60%; */
+  width: max-content;
+  /* width: 100%; */
+}
+#add {
+  margin-top: 5%;
+  background-color: green;
+  padding: 2%;
+  color: white;
+  /* margin-left: 3.5%; */
+  /* border: 7px solid blue; */
+  width: 200%;
+}
+#heading {
+  font-weight: bolder;
+}
+#sizeOption {
+  padding: 2%;
+  margin: 2%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#payment {
+  width: 70%;
+}
+#random_text {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#acc_btn {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

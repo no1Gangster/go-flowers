@@ -1,11 +1,20 @@
-import AllRoutes from './AllRoutes';
-import './App.css';
-import ProductPage from './productPage/productPage';
-
+import AllRoutes from "./AllRoutes";
+import "./App.css";
+import {
+  Box,
+  Center,
+  Text,
+  Heading,
+  Centre,
+  Divider,
+  Flex,
+} from "@chakra-ui/react";
 
 function App() {
   return (
-    <AllRoutes />
+    <div>
+      <AllRoutes />
+    </div>
   );
 }
 

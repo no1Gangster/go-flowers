@@ -1,8 +1,19 @@
 #list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 8%;
+  margin-top: 4%;
 }
 
 #card img {
+  width: 85%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #card {
+  width: 100%;
+}
+#loadbtn {
+  margin-left: 70%;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
