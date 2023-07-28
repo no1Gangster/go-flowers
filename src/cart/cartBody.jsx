@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import CartCard from "./cartCard";
-import "./cart.css";
 import { Link } from "react-router-dom";
 
 function CartBody() {
   const [cartItems, setCartItems] = useState([]);
   const userId = localStorage.getItem("userID");
+  const [chekoutPrice, setCheckoutPrice] = useState(0);
 
   const getData = async () => {
     try {
@@ -16,6 +16,16 @@ function CartBody() {
       const filteredData = data.filter((product) => product.userID === userId);
       setCartItems(filteredData);
       console.log(filteredData);
+
+      setCheckoutPrice(
+        filteredData
+          .reduce(
+            (acc, item) => totalPrice(acc, item.basePrice, item.discountPrice),
+            0
+          )
+          .toFixed(2)
+      );
+      console.log(chekoutPrice);
     } catch (error) {
       console.error(error);
     }
@@ -38,9 +48,24 @@ function CartBody() {
       setCartItems((prevCartItems) =>
         prevCartItems.filter((item) => item.id !== id)
       );
+      getData();
     } catch (error) {
       console.error("Error deleting object:", error);
     }
+  };
+
+  const totalPrice = (acc, basePrice, discountPrice) => {
+    console.log("acc", acc);
+    if (discountPrice.length !== 0) {
+      return acc + parseFloat(discountPrice.slice(1, 5));
+    } else {
+      return acc + parseFloat(basePrice.slice(1, 5));
+    }
+  };
+
+  const purchase = () => {
+    localStorage.setItem("payment", true);
+    localStorage.setItem("total", chekoutPrice);
   };
 
   return (
@@ -48,9 +73,9 @@ function CartBody() {
       {cartItems.length === 0 ? (
         <div>Your cart is empty.</div>
       ) : (
-        cartItems.map((item) => (
-          <div key={item.id} id="product_card">
-            <div>
+        <div>
+          {cartItems.map((item) => (
+            <div key={item.id} id="product_card">
               <CartCard
                 imgSrc={item.productImage}
                 productTitle={item.productTitle}
@@ -58,15 +83,18 @@ function CartBody() {
                 discountPrice={item.discountPrice}
                 productLink={item.productLink}
               />
-            </div>
-
-            <div>
-              <button id="remove_btn" onClick={() => deleteItem(item.id)}>
+              <button onClick={() => deleteItem(item.id)} id="remove_btn">
                 Remove from Cart
               </button>
             </div>
+          ))}
+          <div>
+            <p>Total: ${chekoutPrice}</p>
+            <Link to="/payment">
+              <button onClick={purchase}>Checkout</button>
+            </Link>
           </div>
-        ))
+        </div>
       )}
     </div>
   );

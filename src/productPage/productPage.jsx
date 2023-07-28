@@ -17,11 +17,13 @@ import {
 } from "@chakra-ui/react";
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
+import Topbar from "../components/topbar/topbar";
 function ProductPage() {
   return (
     <div id="container_left">
       <QuickLinks id="qlinks" />
       <ProductBody />
+      <Topbar />
     </div>
   );
 }
