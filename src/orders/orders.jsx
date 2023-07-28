@@ -6,12 +6,13 @@ function Orders() {
     const userId = localStorage.getItem("userID");
     const [orderItems,setOrderItems] = useState([]);
     const [chekoutPrice,setCheckoutPrice] = useState(0);
-
+    const token = JSON.parse(localStorage.getItem("token"));
 
     const getData = async() =>{
         try {
             const res = await fetch(`http://localhost:5005/orders`,{
                 method: "GET",
+                Authorization: token,
             });
             const data = await res.json();
             const filteredData = data.filter((product) => product.userID === userId);
