@@ -5,6 +5,8 @@ import ProductDesc from "./productDesc/productDesc";
 import ProductPage from "./productPage/productPage";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/homepage/homepage";
+import Signin from "./signin/signin";
+import Auth from "./Auth.js";
 
 function AllRoutes() {
   return (
@@ -12,11 +14,12 @@ function AllRoutes() {
       <Route path="/" element={<HomePage />} />
       <Route path="/summer" element={<ProductPage />} />
       <Route path="/product-desc" element={<ProductDesc />} />
-      <Route path="/cart" element={<CartBody />} />
-      <Route path="/payment" element={<Payment />} />
-      <Route path="/orders" element={<Orders />} />
+      <Route path="/cart" element={<Auth><CartBody /></Auth>} />
+      <Route path="/payment" element={<Auth><Payment /></Auth>} />
+      <Route path="/orders" element={<Auth><Orders /></Auth>} />
+      <Route path="/signin" element={<Signin />} />
     </Routes>
   );
 }
-
+ 
 export default AllRoutes;

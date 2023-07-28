@@ -10,7 +10,8 @@ function Payment() {
   const userId = localStorage.getItem("userID");
   const [buyItems, setBuyItems] = useState([]);
   const [idList, setIdList] = useState([]);
-
+  const token = JSON.parse(localStorage.getItem("token"));
+  
   useEffect(() => {
     if (payStatus === null) navigate("/cart");
   }, []);
@@ -18,6 +19,7 @@ function Payment() {
   const getCartItem = async () => {
     const res = await fetch(`http://localhost:5005/cart`, {
       method: "GET",
+      Authorization: token,
     });
     const data = await res.json();
     console.log(data);
@@ -34,6 +36,7 @@ function Payment() {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
+            Authorization: token,
           },
           body: JSON.stringify(data),
         });
@@ -50,6 +53,7 @@ function Payment() {
           method: "DELETE",
           headers: {
             "Content-Type": "application/json",
+            Authorization: token,
           },
         });
 
