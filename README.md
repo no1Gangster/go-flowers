@@ -54,7 +54,7 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 
 ## Homepage
 
-<img src = "./images/home-ss.png" alt = "HomePage" />
+<img src = "./public/homepage.jpeg" alt = "HomePage" />
 <h3>Select gifts as per your requirement</h3>
 
 <p>- Lists the list of elements to assist the user to select the best product for their appropriate requirement.<br>- Items are categeorized based on occassions as well as seasonal collections.</p>
@@ -62,7 +62,7 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 
 ## Item Collections
 
-<img src = "./images/flight-ss.png" alt = "Product Page">
+<img src = "./public/product-page.jpeg" alt = "Product Page">
 <h3>Filtered List of Data</h3>
 <p>
 - List of filtered data is presented as per user's requirement.<br>
@@ -72,7 +72,7 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 
 ## Product Details
 
-<img src = "./images/profile-ss.png" alt = "Product Details">
+<img src = "./public/desc-page.jpeg" alt = "Product Details">
 <h3>Product Details</h3>
 <p>
 - Displays the details of each product along with their price.<br>
@@ -84,7 +84,7 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 
 ## Cart
 
-<img src = "./images/profile-ss.png" alt = "Cart">
+<img src = "./public/cart.jpeg" alt = "Cart">
 <h3>Cart</h3>
 <p>
 - Displays the list of items added by users.<br>
@@ -94,7 +94,7 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 
 ## Payment Gateway
 
-<img src = "./images/profile-ss.png" alt = "Payment Gateway">
+<img src = "./public/payment.jpeg" alt = "Payment Gateway">
 <h3>Cart</h3>
 <p>
 - A dummy payment gateway page.<br>
@@ -104,7 +104,7 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 
 ## Orders
 
-<img src = "./images/profile-ss.png" alt = "Orders">
+<img src = "./public/orders.jpeg" alt = "Orders">
 <h3>Orders</h3>
 <p>
 - The page displays list of items which checked out by user.<br>
