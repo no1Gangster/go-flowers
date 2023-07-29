@@ -41,6 +41,7 @@
   <a href="#cart">Cart</a> •
   <a href="#orders">Orders</a> •
   <a href="#payment">Payment Gateway</a> •
+  <a href="#how-to-use">How to Use</a> •
   <a href="#contributors">Contributors</a>
 </p>
 
@@ -124,7 +125,40 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 - Allows new users to join and authenticates existing user.
 <p>
 
+## How to Use
 
+<p>
+  - To download the project. Git clone the project in your desktop.
+  - Open any folder and type "cmd" in the address bar to open terminal. In the terminal enter
+</p>
+
+```npm
+git clone https://github.com/no1Gangster/go-flowers.git
+```
+
+<p>
+  - After Downloading. Install dependencies using
+
+  ```npm
+npm install
+npm i json-server
+
+```
+</p>
+
+<p>
+ - Instead use this script to automatically install and launch complete project.
+
+  ```npm
+git clone https://github.com/no1Gangster/go-flowers.git
+cd go-flowers
+npm install
+npm i json-server
+npm start
+
+```
+</p>
+  
 ## Contributors
 
 
