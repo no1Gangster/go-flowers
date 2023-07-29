@@ -114,10 +114,8 @@ Welcome to Go-Flowers! Where the enchanting world of flowers unfolds before your
 
 ## Sign in/Sign Up
 
-<div style = "display:flex; flex-direction:row; flex-wrap:wrap;">
-    <img src = "./images/signin-ss.png" alt = "Sign-in Box" style = "width:40%">
-    <img src = "./images/signup-ss.png" alt = "Sign-up Box" style = "width:40%">
-</div>
+
+<img src = "./public/signin.jpeg" alt = "Sign-in Box">
 
 <p>
 - Multipurpose box, which allows Sign in as well as Sign Up in the same page.<br>
