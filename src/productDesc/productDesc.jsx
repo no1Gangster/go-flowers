@@ -46,8 +46,6 @@ function ProductDesc() {
       size: localStorage.getItem("size"),
     };
 
-    localStorage.setItem("userID", "Sample@mail");
-
     try {
       const response = await fetch("http://localhost:5005/cart", {
         method: "POST",
