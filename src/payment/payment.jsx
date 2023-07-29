@@ -83,9 +83,18 @@ function Payment() {
         autoPlay
         loop
         src="https://player.vimeo.com/external/191382067.sd.mp4?s=2fd8787c791ff985a786109f9b6dbd92baf397b6&profile_id=164&oauth2_token_id=57447761"
+        // style={{ width: "100%", height: "auto" }}
       />
-      <div id="parent_div">
-        <div id="content">
+      <div
+        id="parent_div"
+        minHeight="100vh" // Set a minimum height to take the full height of the viewport
+        padding="0 10px"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        justifyContent="center"
+      >
+        <div id="content" width={{ base: "90%", md: "50%" }}>
           <div id="img_div">
             <img
               id="image"
@@ -101,10 +110,14 @@ function Payment() {
             <h1 id="price" style={{ fontWeight: "bold" }}>
               ${total}
             </h1>
-            <label style={{ color: "white", fontWeight: "bold" }}>
+            <label as="h3" style={{ color: "white", fontWeight: "hairline" }}>
               Phone Number:
             </label>
-            <input id="phone_input" type="number" />
+            <input
+              id="phone_input"
+              type="number"
+              width={{ base: "90%", md: "50%" }}
+            />
           </div>
           <div id="btns_div">
             <Button onClick={() => payChoice(true)} colorScheme="purple">

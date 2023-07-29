@@ -1,3 +1,40 @@
 #ordercard_div {
-  border: 1px solid black;
+  width: 80%;
+  margin: 10%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* #card_div {
+  border: 5px solid yellow;
+} */
+
+#body_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: lavender;
+  width: 100%;
+  padding: 1%;
+}
+@media (max-width: 768px) {
+  #body_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  #body_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* #cardbody_div {
+  margin: 5%;
+} */
+#product_title {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: large;
+}
+#total_price {
+  padding: 1%;
+  font-weight: bolder;
+  font-size: large;
+  margin-left: 80%;
 }

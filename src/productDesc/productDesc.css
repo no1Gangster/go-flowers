@@ -1,6 +1,3 @@
-#item_cardbody {
-  border: 2px solid blue;
-}
 #item_card {
   display: flex;
   padding: 5%;
@@ -13,4 +10,7 @@
 }
 #heading {
   width: 100%;
+}
+#payment {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

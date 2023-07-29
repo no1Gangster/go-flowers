@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "../productDesc/productDesc.css";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
-import { Button, Flex } from "@chakra-ui/react";
+import { Button, Flex, Box } from "@chakra-ui/react";
 
 function ProductDesc() {
   const endpoint = localStorage.getItem("endpoint");
@@ -71,9 +71,16 @@ function ProductDesc() {
         return (
           <div id="item_cardbody">
             <Navbar />
-            <div id="item_card">
-              <img src={item.productImage} />
-              <div id="detail">
+            <div
+              id="item_card"
+              display="flex"
+              flexDirection={{ base: "column", md: "row" }}
+            >
+              <Box order={{ base: 1, md: 2 }}>
+                <img src={item.productImage} />
+              </Box>
+
+              <div id="detail" order={{ base: 2, md: 1 }}>
                 {/* <Flex justifyContent="center"> */}
                 <PriceCard
                   title={item.productTitle}

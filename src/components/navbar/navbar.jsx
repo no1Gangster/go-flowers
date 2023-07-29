@@ -53,8 +53,20 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { FaTruck } from "react-icons/fa";
 import { FcSearch } from "react-icons/fc";
+// const [searchValue, setSearchValue] = useState("");
 
 const signinbtn = () => {};
+// const handleSearch = () => {
+//   {
+//     searchResults.map((item) => (
+//       <div key={item.productTitle}>
+//         <p>{item.productImage}</p>
+//         <p>{item.basePrice}</p>
+//         <p>{item.discountPrice}</p>
+//       </div>
+//     ));
+//   }
+// };
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -411,18 +423,22 @@ const Navbar = () => {
     <div className="nav_top">
       <Divider orientation="horizontal" color="gray.500" />
       <Flex>
-        <Box width="90%">
+        <Box width="85%">
           <Flex>
-            <Box display={{ base: "none", md: "flex" }}>
+            <Box display={{ base: "none", md: "flex" }} margin="auto">
               <Image
                 src="https://images-platform.99static.com//yrVX8ufudrS38A20MkM0ADXc6eA=/0x0:1904x1904/fit-in/500x500/99designs-contests-attachments/87/87532/attachment_87532959"
                 alt="logo"
                 width="20%"
               />
             </Box>
-            <Box w="70%" m="auto">
+            <Box w="85%" m="auto">
               <Flex>
-                <Input placeholder="Enter Keyword or Product Number"></Input>
+                <Input
+                  placeholder="Enter Keyword or Product Number"
+                  // value={searchValue}
+                  // onChange={(e) => setSearchValue(e.target.value)}
+                ></Input>
                 <Button colorScheme="purple" w="45%">
                   Search
                 </Button>
@@ -441,7 +457,6 @@ const Navbar = () => {
                       aria-label="Done"
                       fontSize="20px"
                       icon={<CgProfile />}
-                      onClick={signinbtn}
                     />
                   </PopoverTrigger>
                   <Portal>
@@ -449,7 +464,11 @@ const Navbar = () => {
                       <PopoverArrow />
                       <PopoverHeader m="auto">
                         {" "}
-                        <Button colorScheme="purple" w="100%">
+                        <Button
+                          colorScheme="purple"
+                          w="100%"
+                          onClick={signinbtn}
+                        >
                           SIGN IN
                         </Button>
                       </PopoverHeader>
@@ -458,8 +477,10 @@ const Navbar = () => {
                         <Text fontWeight="bold" ml="20%">
                           Don't have an account?
                         </Text>
-                        <Link color="purple" ml="35%">
-                          Click Here
+                        <Link to="/signup">
+                          <Text textColor="purple" textAlign="center">
+                            Click Here
+                          </Text>
                         </Link>
                         <Flex
                           fontSize="xs"
@@ -492,6 +513,7 @@ const Navbar = () => {
                 </Popover>
 
                 <IconButton
+                  display={{ base: "none", md: "flex" }}
                   isRound={true}
                   variant="solid"
                   // colorScheme="teal"
@@ -500,14 +522,17 @@ const Navbar = () => {
                   icon={<FaTruck />}
                 ></IconButton>
 
-                <IconButton
-                  isRound={true}
-                  variant="solid"
-                  // colorScheme="teal"
-                  aria-label="Done"
-                  fontSize="20px"
-                  icon={<AiOutlineShoppingCart />}
-                ></IconButton>
+                <Link to="/cart">
+                  <IconButton
+                    display={{ base: "none", md: "flex" }}
+                    isRound={true}
+                    variant="solid"
+                    // colorScheme="teal"
+                    aria-label="Done"
+                    fontSize="20px"
+                    icon={<AiOutlineShoppingCart />}
+                  ></IconButton>
+                </Link>
               </HStack>
             </Box>
           </Flex>

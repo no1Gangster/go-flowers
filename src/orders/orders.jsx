@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import OrdersCard from "./ordersCard";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
+import { Box, Heading } from "@chakra-ui/react";
+import ".//order.css";
 
 function Orders() {
   const userId = localStorage.getItem("userID");
@@ -48,25 +50,32 @@ function Orders() {
   return (
     <div>
       <Navbar />
+      <Box>
+        <Heading textColor="white" bg="purple" textAlign="center" p="1%">
+          My Orders
+        </Heading>
+      </Box>
       {orderItems.length === 0 ? (
         <div>You haven't ordered anything.</div>
       ) : (
-        <div>
-          {orderItems.map((item) => (
-            <div key={item.id}>
-              <OrdersCard
-                imgSrc={item.productImage}
-                productTitle={item.productTitle}
-                basePrice={item.basePrice}
-                discountPrice={item.discountPrice}
-                productLink={item.productLink}
-              />
-            </div>
-          ))}
-          <div>
-            <p>Total: ${chekoutPrice}</p>
+        <Box>
+          <Box id="body_div">
+            {orderItems.map((item) => (
+              <div key={item.id} id="cardbody_div">
+                <OrdersCard
+                  imgSrc={item.productImage}
+                  productTitle={item.productTitle}
+                  basePrice={item.basePrice}
+                  discountPrice={item.discountPrice}
+                  productLink={item.productLink}
+                />
+              </div>
+            ))}
+          </Box>
+          <div id="total_price">
+            <p textColor="blue">Total: ${chekoutPrice}</p>
           </div>
-        </div>
+        </Box>
       )}
       <Footer />
     </div>

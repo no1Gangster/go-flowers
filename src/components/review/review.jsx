@@ -23,7 +23,7 @@ function Review() {
             <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt4661dd99d6401481/60184a440f1c0c1aa6f87986/instagram-icon.svg?quality=85&auto=webp&optimize={medium}" />
           </Box>
           <Box>
-            <Heading fontWeight="hairline">
+            <Heading fontWeight="light">
               Share Your #MadeMeSmile flowers Moment
             </Heading>
           </Box>
@@ -48,7 +48,7 @@ function Review() {
       <Box>
         <Box display={{ base: "none", md: "block" }}>
           <Box mt="5%">
-            <Heading fontWeight="hairline" textAlign="center">
+            <Heading fontWeight="semibold" textAlign="center">
               Some of the Great Things our Customer Say About Us
             </Heading>
           </Box>

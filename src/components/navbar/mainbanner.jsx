@@ -32,14 +32,16 @@ function MainBanner() {
             <Flex>
               {" "}
               <Image
-                src="https://img.freepik.com/premium-photo/chocolate-cake-bouquet-lilacs-wooden-table_127032-664.jpg"
+                display={{ base: "none", md: "flex" }}
+                src="https://reviewed-com-res.cloudinary.com/image/fetch/s--muADjTX_--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_auto,h_729,q_auto,w_972/https://reviewed-production.s3.amazonaws.com/1581355762219/1-800-flowers.jpg"
                 alt="banner"
+                w="50%"
               />
               <Box mt="11%" display={{ base: "none", md: "flex" }}>
                 <VStack>
                   <Text fontWeight="extrabold">MAKE EVERY</Text>
                   <Heading fontWeight="bold">BIRTHDAY SPECIAL</Heading>
-                  <Text as="h5" textAlign="centre" fontFamily="cursive" p="1%">
+                  <Text as="h5" textAlign="centre" p="2%">
                     We love birthdays like we love flowers.Find everything from
                     party favors to personalized gifts right here{" "}
                   </Text>

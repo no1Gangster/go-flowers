@@ -1,6 +1,7 @@
 import { Text } from "@chakra-ui/react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import ".//order.css";
 
 function OrdersCard({
   imgSrc,
@@ -38,9 +39,13 @@ function OrdersCard({
         <img src={imgSrc} onClick={handleClick} />
       </div>
       <div>
-        <h3 onClick={handleClick}>{productTitle}</h3>
+        <h3 id="product_title" onClick={handleClick}>
+          {productTitle}
+        </h3>
         <span>
-          <Text as="b">{discountPrice}</Text>
+          <Text as="b" textColor="red">
+            {discountPrice}
+          </Text>
           {dispPrice}
         </span>
       </div>
