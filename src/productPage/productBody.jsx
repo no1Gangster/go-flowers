@@ -9,9 +9,12 @@ import {
   Heading,
   Text,
   Button,
+  IconButton,
 } from "@chakra-ui/react";
 import "./productBody.css";
 import { Link, useNavigate } from "react-router-dom";
+import Navbar from "../components/navbar/navbar";
+import { RepeatIcon } from "@chakra-ui/icons";
 
 function ProductBody() {
   //const categeory = localstorage.getItem("categeory");
@@ -81,9 +84,22 @@ function ProductBody() {
             </Card>
           );
         })}
-      <Button id="loadbtn" colorScheme="blue" onClick={changeVisible}>
+      <Button
+        id="loadbtn"
+        colorScheme="purple"
+        onClick={changeVisible}
+        display={{ base: "none", md: "flex" }}
+      >
         Load More
       </Button>{" "}
+      <IconButton
+        id="loadbtn"
+        colorScheme="purple"
+        onClick={changeVisible}
+        display={{ base: "flex", md: "none" }}
+      >
+        <RepeatIcon />
+      </IconButton>{" "}
       {/*Load More items button*/}
     </div>
   );

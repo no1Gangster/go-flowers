@@ -1,0 +1,55 @@
+#parent_div {
+  align-self: center;
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+  margin-left: 20%;
+}
+#content {
+  width: 50%;
+  margin: 5%;
+  padding: 4%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+#btns_div {
+  margin: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+}
+#image {
+  width: 20%;
+  margin: auto;
+}
+#org_div {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#total_div {
+  display: flex;
+  gap: 15px;
+}
+#price {
+  font-weight: bold;
+  color: yellow;
+}
+#amt {
+  color: white;
+}
+#phone_input {
+  color: black;
+}
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

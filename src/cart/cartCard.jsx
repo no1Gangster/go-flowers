@@ -1,4 +1,4 @@
-import { Text } from "@chakra-ui/react";
+import { Text, Box, Flex } from "@chakra-ui/react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./cart.css";
@@ -35,15 +35,19 @@ function CartCard({
 
   return (
     <div id="cartcard">
-      <div>
+      <div id="alldetails">
         <img id="cart_img" src={imgSrc} onClick={handleClick} width="60%" />
-      </div>
-      <div>
-        <h3 onClick={handleClick}>{productTitle}</h3>
+        <h3
+          style={{ fontWeight: "bold", fontFamily: "monospace" }}
+          onClick={handleClick}
+        >
+          {productTitle}
+        </h3>{" "}
         <span>
           <Text as="b">{discountPrice}</Text>
           {dispPrice}
         </span>
+        {/* <Text>{productLink}</Text> */}
       </div>
     </div>
   );

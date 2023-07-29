@@ -28,7 +28,16 @@ function PriceCard({ title, basePrice, discountPrice }) {
   return (
     <Box id="container" maxWidth={{ base: "50%", md: "30%", sm: "10%" }}>
       <div id="heading">
-        <h1>{title}</h1>
+        <h1
+          style={{
+            fontWeight: "bold",
+            fontSize: "large",
+            width: "200%",
+            fontFamily: "monospace",
+          }}
+        >
+          {title}
+        </h1>
       </div>
 
       <div id="sizeOption">
@@ -45,12 +54,12 @@ function PriceCard({ title, basePrice, discountPrice }) {
         </ChakraProvider>
       </div>
       <img
-        width={"15%"}
+        width={"90%"}
         src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt8d4549d3cac15860/61e09d4f2e109d6c649d4aa4/PP_EligibleIcon.svg?auto=webp&optimize={medium}"
         id="payment"
       />
       <div id="price">
-        <Text color="blue.600" fontSize="2xl" as="b">
+        <Text color="blue.600" fontSize="small" as="b">
           {discountPrice}
         </Text>{" "}
         {dispPrice}

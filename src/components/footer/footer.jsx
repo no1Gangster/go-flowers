@@ -180,36 +180,47 @@ function Footer() {
         </Box>
       </Flex>
 
-      <Box p="1%" ml="2%" fontSize="xs">
-        <Flex fontWeight="bold" justifyContent="center" fontColor="white">
-          <Link m="0% 1% 0% 1%" textDecorationLine="underline">
-            Privacy Notice
+      <Box
+        w="100%"
+        p="1%"
+        ml="2%"
+        fontSize="xs"
+        display={{ base: "none", md: "flex" }}
+      >
+        <Flex fontWeight="bold" justifyContent="center">
+          <Link m="0% 1% 0% 1%">
+            <Text textColor="white">Privacy Notice</Text>
           </Link>
-          <Center height="20px">
+          <Center height="30px">
             <Divider orientation="vertical" p="3%" />
           </Center>
-          <Link m="0% 1% 0% 1%" textDecorationLine="underline">
-            Terms of Use
+          <Link m="0% 1% 0% 1%">
+            <Text textColor="white"> Terms of Use</Text>
           </Link>
-          <Center height="20px">
+          <Center height="30px">
             <Divider orientation="vertical" />
           </Center>
-          <Link m="0% 1% 0% 1%" textDecorationLine="underline">
-            Accessibility Statement
+          <Link m="0% 1% 0% 1%">
+            <Text textColor="white"> Accessibility Statement</Text>
           </Link>
-          <Center height="20px">
+          <Center height="30px">
             <Divider orientation="vertical" />
           </Center>
-          <Link m="0% 1% 0% 1%" textDecorationLine="underline">
-            Don't Sell or Share My Personal Information
+          <Link m="0% 1% 0% 1%">
+            <Text textColor="white">
+              {" "}
+              Don't Sell or Share My Personal Information
+            </Text>
           </Link>
-          <Center height="20px">
+          <Center height="30px">
             <Divider orientation="vertical" />
           </Center>
-          <Link m="0% 1% 0% 1%" textDecorationLine="underline">
-            Site Map
+          <Link m="0% 1% 0% 1%">
+            <Text textColor="white"> Site Map</Text>
           </Link>
-          <Text>© Copyrights 2023 go-flowers.com,Inc.-Church Road,DEL</Text>
+          <Text textColor="white">
+            © Copyrights 2023 go-flowers.com,Inc.-Church Road,DEL
+          </Text>
         </Flex>
       </Box>
     </Box>

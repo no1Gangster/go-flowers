@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Text, Flex, Heading } from "@chakra-ui/react";
 function Topbar() {
   return (
-    <Box>
+    <Box w="100%">
       {" "}
       <Box bg="purple" p="0.1%">
         <Text textAlign="center" textColor="white">
