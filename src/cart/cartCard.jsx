@@ -3,13 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./cart.css";
 
-function CartCard({
-  imgSrc,
-  productTitle,
-  basePrice,
-  discountPrice,
-  productLink,
-}) {
+function CartCard({ basePrice, discountPrice, productLink }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -21,13 +15,13 @@ function CartCard({
 
   if (discountPrice !== "") {
     dispPrice = (
-      <Text fontSize="md" as="s">
+      <Text fontSize="sm" as="s">
         {basePrice}
       </Text>
     );
   } else {
     dispPrice = (
-      <Text fontSize="xl" as="b">
+      <Text fontSize="sm" as="b">
         {basePrice}
       </Text>
     );
@@ -35,20 +29,10 @@ function CartCard({
 
   return (
     <div id="cartcard">
-      <div id="alldetails">
-        <img id="cart_img" src={imgSrc} onClick={handleClick} width="60%" />
-        <h3
-          style={{ fontWeight: "bold", fontFamily: "monospace" }}
-          onClick={handleClick}
-        >
-          {productTitle}
-        </h3>{" "}
-        <span>
-          <Text as="b">{discountPrice}</Text>
-          {dispPrice}
-        </span>
-        {/* <Text>{productLink}</Text> */}
-      </div>
+      <span>
+        <Text as="b">{discountPrice}</Text>
+        {dispPrice}
+      </span>
     </div>
   );
 }

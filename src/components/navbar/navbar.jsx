@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import {
   Flex,
@@ -30,7 +30,7 @@ import {
   MenuButton,
   MenuList,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   ArrowForwardIcon,
   CheckIcon,
@@ -55,21 +55,26 @@ import { FaTruck } from "react-icons/fa";
 import { FcSearch } from "react-icons/fc";
 // const [searchValue, setSearchValue] = useState("");
 
-const signinbtn = () => {};
-// const handleSearch = () => {
-//   {
-//     searchResults.map((item) => (
-//       <div key={item.productTitle}>
-//         <p>{item.productImage}</p>
-//         <p>{item.basePrice}</p>
-//         <p>{item.discountPrice}</p>
-//       </div>
-//     ));
-//   }
-// };
-
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const [msg1, setMsg1] = useState("SIGN IN");
+  const tok = localStorage.getItem("token");
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (tok !== null) {
+      setMsg1("LOG OUT");
+    } else {
+      setMsg1("SIGN IN");
+    }
+  }, [tok]);
+
+  const signinbtn = () => {
+    if (tok !== null) {
+      localStorage.removeItem("token");
+      navigate("/");
+    } else navigate("/signin");
+  };
 
   const handlePopoverMouseEnter = () => {
     onOpen();
@@ -425,14 +430,12 @@ const Navbar = () => {
       <Flex>
         <Box width="85%">
           <Flex>
-            <Box display={{ base: "none", md: "flex" }} margin="auto">
-              <Image
-                src="https://images-platform.99static.com//yrVX8ufudrS38A20MkM0ADXc6eA=/0x0:1904x1904/fit-in/500x500/99designs-contests-attachments/87/87532/attachment_87532959"
-                alt="logo"
-                width="20%"
-              />
+            <Box display={{ base: "none", md: "flex" }} margin="auto" w="60%">
+              <Link to="/">
+                <Image src="/go-flowers.png" alt="logo" width="50%" />
+              </Link>
             </Box>
-            <Box w="85%" m="auto">
+            <Box w="100%" m="auto">
               <Flex>
                 <Input
                   placeholder="Enter Keyword or Product Number"
@@ -469,7 +472,7 @@ const Navbar = () => {
                           w="100%"
                           onClick={signinbtn}
                         >
-                          SIGN IN
+                          {msg1}
                         </Button>
                       </PopoverHeader>
                       <PopoverCloseButton />
@@ -477,11 +480,11 @@ const Navbar = () => {
                         <Text fontWeight="bold" ml="20%">
                           Don't have an account?
                         </Text>
-                        <Link to="/signup">
-                          <Text textColor="purple" textAlign="center">
-                            Click Here
-                          </Text>
-                        </Link>
+
+                        <Text textColor="purple" textAlign="center">
+                          Click Here
+                        </Text>
+
                         <Flex
                           fontSize="xs"
                           textAlign="start"
@@ -512,15 +515,17 @@ const Navbar = () => {
                   </Portal>
                 </Popover>
 
-                <IconButton
-                  display={{ base: "none", md: "flex" }}
-                  isRound={true}
-                  variant="solid"
-                  // colorScheme="teal"
-                  aria-label="Done"
-                  fontSize="20px"
-                  icon={<FaTruck />}
-                ></IconButton>
+                <Link to="/orders">
+                  <IconButton
+                    display={{ base: "none", md: "flex" }}
+                    isRound={true}
+                    variant="solid"
+                    // colorScheme="teal"
+                    aria-label="Done"
+                    fontSize="20px"
+                    icon={<FaTruck />}
+                  ></IconButton>
+                </Link>
 
                 <Link to="/cart">
                   <IconButton
@@ -595,7 +600,7 @@ const Navbar = () => {
             />
             <MenuList>
               <MenuItem>
-                <Link>Summers</Link>
+                <Link to="/summer">Summers</Link>
               </MenuItem>
               <MenuItem>
                 <Link>Birthday</Link>

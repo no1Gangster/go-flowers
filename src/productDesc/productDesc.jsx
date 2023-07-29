@@ -12,6 +12,7 @@ function ProductDesc() {
   const [items, setItems] = useState([]);
   const [cartItem, setCartItem] = useState({});
   const navigate = useNavigate();
+  const mail = localStorage.getItem("userID");
 
   const getData = async () => {
     try {
@@ -37,7 +38,7 @@ function ProductDesc() {
     }
 
     const data = {
-      userID: "Sample@mail",
+      userID: mail,
       productLink: cartItem.productLink,
       productImage: cartItem.productImage,
       productTitle: cartItem.productTitle,
@@ -57,7 +58,9 @@ function ProductDesc() {
 
       const result = await response.json();
       console.log(result);
-      navigate("/cart");
+      if (localStorage.getItem("userID")) {
+        navigate("/cart");
+      } else navigate("/signin");
     } catch (error) {
       console.error(error);
     }

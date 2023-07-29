@@ -37,14 +37,10 @@ function MainBanner() {
                 alt="banner"
                 w="50%"
               />
-              <Box mt="11%" display={{ base: "none", md: "flex" }}>
+              <Box mt="11%" display={{ base: "none", md: "flex" }} m="auto">
                 <VStack>
                   <Text fontWeight="extrabold">MAKE EVERY</Text>
                   <Heading fontWeight="bold">BIRTHDAY SPECIAL</Heading>
-                  <Text as="h5" textAlign="centre" p="2%">
-                    We love birthdays like we love flowers.Find everything from
-                    party favors to personalized gifts right here{" "}
-                  </Text>
                   <Button colorScheme="purple">
                     <Link to="/summer">SHOP NOW</Link>
                   </Button>
