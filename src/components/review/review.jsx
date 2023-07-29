@@ -20,7 +20,9 @@ function Review() {
       <Box>
         <Flex justifyContent="center" gap="4px">
           <Box mt="1%" display={{ base: "none", md: "block" }}>
+            {/* <a href="https://www.instagram.com/"> */}
             <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt4661dd99d6401481/60184a440f1c0c1aa6f87986/instagram-icon.svg?quality=85&auto=webp&optimize={medium}" />
+            {/* </a> */}
           </Box>
           <Box>
             <Heading fontWeight="light">

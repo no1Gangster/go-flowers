@@ -31,6 +31,7 @@ function Footer() {
       textAlign="start"
       p="2%"
       fontSize="sm"
+      mt="5%"
       // fontColor="white"
       // fontFamily="LatoMedium,sans-serif"
     >

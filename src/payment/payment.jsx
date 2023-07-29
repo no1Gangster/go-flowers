@@ -14,7 +14,7 @@ function Payment() {
   const [buyItems, setBuyItems] = useState([]);
   const [idList, setIdList] = useState([]);
   const token = JSON.parse(localStorage.getItem("token"));
-  
+
   useEffect(() => {
     if (payStatus === null) navigate("/cart");
   }, []);
@@ -120,7 +120,7 @@ function Payment() {
             <input
               id="phone_input"
               type="number"
-              width={{ base: "90%", md: "50%" }}
+              // width={{ base: "90%", md: "50%" }}
             />
           </div>
           <div id="btns_div">

@@ -1,16 +1,32 @@
 import React, { useEffect, useState } from "react";
 import CartCard from "./cartCard";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./cart.css";
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
-import { Heading, Image, Flex, Button, Box } from "@chakra-ui/react";
+import {
+  Heading,
+  Image,
+  Flex,
+  Button,
+  Box,
+  Stack,
+  CardBody,
+  Card,
+  CardFooter,
+  Text,
+} from "@chakra-ui/react";
 import Topbar from "../components/topbar/topbar";
 
 function CartBody() {
   const [cartItems, setCartItems] = useState([]);
   const userId = localStorage.getItem("userID");
   const [chekoutPrice, setCheckoutPrice] = useState(0);
+  const navigate = useNavigate();
+
+  if (localStorage.getItem("token") === null) {
+    navigate("/signin");
+  }
 
   const getData = async () => {
     try {
@@ -80,7 +96,7 @@ function CartBody() {
       <Flex justifyContent="center" w="100%" bg="purple" p="1%">
         <Heading textColor="white">Showing Your Cart</Heading>
       </Flex>
-      <Box id="body">
+      <Box id="body" bgColor="white">
         {cartItems.length === 0 ? (
           <div
             style={{
@@ -97,7 +113,46 @@ function CartBody() {
           <div id="parent_div">
             {cartItems.map((item) => (
               <div key={item.id} id="product_card">
-                <CartCard
+                {
+                  <Card
+                    direction={{ base: "column", sm: "row" }}
+                    overflow="hidden"
+                    variant="outline"
+                    w="150%"
+                  >
+                    <Image
+                      objectFit="cover"
+                      maxW={{ base: "100%", sm: "200px" }}
+                      src={item.productImage}
+                      alt="Product Image"
+                    />
+
+                    <Stack>
+                      <CardBody>
+                        <Heading size="md">{item.productTitle}</Heading>
+
+                        <Text py="2">
+                          <CartCard
+                            basePrice={item.basePrice}
+                            discountPrice={item.discountPrice}
+                            productLink={item.productLink}
+                          />
+                        </Text>
+                      </CardBody>
+
+                      <CardFooter>
+                        <Button
+                          variant="solid"
+                          colorScheme="blue"
+                          onClick={() => deleteItem(item.id)}
+                        >
+                          Remove
+                        </Button>
+                      </CardFooter>
+                    </Stack>
+                  </Card>
+
+                  /* <CartCard
                   imgSrc={item.productImage}
                   productTitle={item.productTitle}
                   basePrice={item.basePrice}
@@ -117,7 +172,8 @@ function CartBody() {
                   display={{ base: "flex", md: "none" }}
                 >
                   Remove
-                </Button>
+                </Button> */
+                }
               </div>
             ))}
             <div id="checkout">

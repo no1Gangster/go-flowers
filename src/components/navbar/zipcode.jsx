@@ -12,7 +12,7 @@ import React from "react";
 
 function ZipInput() {
   return (
-    <Box w="80%" ml="15%" display={{ base: "none", md: "flex" }}>
+    <Box w="80%" ml="20%" display={{ base: "none", md: "flex" }}>
       <Flex bg="lavender" p="2%" justifyContent="space-around">
         <HStack>
           {" "}

@@ -35,15 +35,15 @@ function OrdersCard({
 
   return (
     <div id="ordercard_div">
-      <div>
+      <div id="mycard_div">
         <img src={imgSrc} onClick={handleClick} />
       </div>
-      <div>
+      <div id="cardbody_detail">
         <h3 id="product_title" onClick={handleClick}>
           {productTitle}
         </h3>
         <span>
-          <Text as="b" textColor="red">
+          <Text as="b" textColor="green">
             {discountPrice}
           </Text>
           {dispPrice}

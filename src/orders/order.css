@@ -2,6 +2,7 @@
   width: 80%;
   margin: 10%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid black;
 }
 /* #card_div {
   border: 5px solid yellow;
@@ -37,4 +38,11 @@
   font-weight: bolder;
   font-size: large;
   margin-left: 80%;
+}
+#cardbody_detail {
+  padding: 5%;
+  background-color: white;
+}
+#cardbody_div {
+  border-radius: 50px;
 }

@@ -6,7 +6,7 @@ import Footer from "../../components/footer/footer";
 import Review from "../../components/review/review";
 import { Flex, Heading } from "@chakra-ui/react";
 import { Box, Image, Text } from "@chakra-ui/react";
-import { Link } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import Navbar from "../../components/navbar/navbar";
 
 function HomePage() {
@@ -34,11 +34,11 @@ function HomePage() {
               >
                 <Flex flexDirection="column" fontWeight="semibold">
                   <Link to="/summer">
-                    <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt67299f442812b302/648c9afed5b9a5624f6dd59a/flower-delivery-same-day-silo-191119xl-260x284.jpg?quality=85&auto=webp&optimize={medium}" />
+                    <Image src="https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt67299f442812b302/648c9afed5b9a5624f6dd59a/flower-delivery-same-day-silo-191119xl-260x284.jpg?quality=85&auto=webp&optimize={medium}" />{" "}
+                    <Text textAlign="centre" fontSize="small" ml="20%">
+                      Same-Day Delivery
+                    </Text>
                   </Link>
-                  <Text textAlign="centre" fontSize="small" ml="20%">
-                    Same-Day Delivery
-                  </Text>
                 </Flex>
               </Box>
               <Box
