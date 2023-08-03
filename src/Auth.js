@@ -6,7 +6,7 @@ function Auth({ children }) {
   const token = JSON.parse(localStorage.getItem("token")) || null;
   useEffect(() => {
     if (token === null) {
-      navigate("/signup");
+      navigate("/signin");
     }
   }, []);
 
