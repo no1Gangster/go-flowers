@@ -33,10 +33,7 @@ function ProductDesc() {
   }, []);
 
   const addToCart = async (item) => {
-    {
-      setCartItem(item);
-    }
-
+    setCartItem(item);
     const data = {
       userID: mail,
       productLink: cartItem.productLink,
@@ -58,9 +55,7 @@ function ProductDesc() {
 
       const result = await response.json();
       console.log(result);
-      if (localStorage.getItem("userID")) {
-        navigate("/cart");
-      } else navigate("/signin");
+      navigate("/cart");
     } catch (error) {
       console.error(error);
     }

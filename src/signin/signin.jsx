@@ -130,7 +130,6 @@ function Signin() {
             </div>
             <div>
               <FormControl>
-                <Box bg="white" w="100%" p={2} color="white"></Box>
                 {isHidden ? null : (
                   <div>
                     <FormLabel mb="0">Name</FormLabel>
@@ -141,7 +140,6 @@ function Signin() {
                         setName(e.target.value);
                       }}
                     />
-                    <Box bg="white" w="100%" p={3} color="white"></Box>
                   </div>
                 )}
                 <FormLabel mb="0">Email</FormLabel>
@@ -151,8 +149,6 @@ function Signin() {
                     setEmail(e.target.value);
                   }}
                 />
-
-                <Box bg="white" w="100%" p={3} color="white"></Box>
 
                 <FormLabel mb="0">Pasword</FormLabel>
                 <InputGroup size="md">
@@ -170,13 +166,13 @@ function Signin() {
                     </Button>
                   </InputRightElement>
                 </InputGroup>
-                <Box bg="white" w="100%" p={5} color="white"></Box>
+                <Box bg="white" w="100%" p={1} color="white"></Box>
                 <WrapItem>
                   <Button
                     colorScheme="purple"
                     w="100%"
                     borderRadius="2pt"
-                    h="2.65rem"
+                    h="2rem"
                     onClick={signinProc}
                   >
                     {msg3}
@@ -190,13 +186,13 @@ function Signin() {
 
                 {isHidden ? null : (
                   <div>
-                    <Box bg="white" w="100%" p={5} color="white"></Box>
+                    <Box bg="white" w="100%" p={3} color="white"></Box>
                     <WrapItem>
                       <Button
                         colorScheme="blackAlpha"
                         w="100%"
                         borderRadius="2pt"
-                        h="2.65rem"
+                        h="2rem"
                         onClick={hideElements}
                       >
                         Sign In
@@ -204,23 +200,6 @@ function Signin() {
                     </WrapItem>
                   </div>
                 )}
-
-                <Box position="relative" padding="10" w="100%">
-                  <Divider />
-                  <AbsoluteCenter bg="white" px="10">
-                    Or sign in with
-                  </AbsoluteCenter>
-                </Box>
-                <div id="imgWith">
-                  <img
-                    src="https://cdn1.harryanddavid.com/wcsstore/HarryAndDavid/images/Auth0/fb_signin.png"
-                    alt="facebook.com"
-                  />
-                  <img
-                    src="https://cdn1.harryanddavid.com/wcsstore/HarryAndDavid/images/Auth0/btn_google_signin_light_normal_web@2x.png"
-                    alt="google.com"
-                  />
-                </div>
               </FormControl>
             </div>
           </div>

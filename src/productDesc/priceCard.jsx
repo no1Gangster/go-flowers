@@ -59,7 +59,7 @@ function PriceCard({ title, basePrice, discountPrice }) {
         id="payment"
       />
       <div id="price">
-        <Text color="blue.600" fontSize="small" as="b">
+        <Text color="red.600" fontSize="small" as="b">
           {discountPrice}
         </Text>{" "}
         {dispPrice}
